@@ -29,3 +29,24 @@ cadena = input("Ingrese una cadena de texto: ")
 largo = len(cadena)
 print(f"La cadena de texto tiene {largo} caracteres")
 
+# 4. Escribe un programa que elimine los primeros tres caracteres de una cadena de texto:
+# Input: Ingrese una cadena de texto: Hola mundo
+# Output: a mundo
+
+cadena2 = input("Ingrese una cadena de texto: ")
+nueva_cadena = cadena2[3:]
+print(nueva_cadena)
+
+# 5.	Escribe un programa que elimine los primeros dos y los últimos dos caracteres de una cadena de texto:
+# Input: Ingrese una cadena de texto: Hola mundo
+# Output: la mun
+
+cadena3 = input("Ingrese una cadena de texto: ")
+nueva_cadena2 = cadena3[2:-2]
+print(nueva_cadena2)
+
+# 6.	Si tienes una panadería que vende el mismo tipo de pan a $2500 10 veces al día, ¿cuánto venderá en una semana?
+precio_pan = 2500
+ventas_diarias = 10
+total_semanal = precio_pan * ventas_diarias * 7
+print(f"La panadería venderá ${total_semanal} en una semana")
